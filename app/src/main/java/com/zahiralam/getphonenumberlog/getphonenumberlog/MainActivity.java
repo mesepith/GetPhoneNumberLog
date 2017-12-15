@@ -243,7 +243,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void postUsingVolley(JSONObject callLog)throws Exception {
 
-        String url = "https://e3db6ee9.ngrok.io/zahir/android/php/log.php";
+        String url = "http://www.zahiralam.com/api/log.php";
 
         JSONObject js = new JSONObject();
 
